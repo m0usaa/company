@@ -1,0 +1,25 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    border-bottom: 3.5px #0780BD solid ;
+    opacity: 100;
+    z-index: 999;
+    position: fixed;
+
+}
+
+.navbar .navbar-brand{
+    color: #0780BD;
+    transition: 0.5s;
+}
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.7) ,rgba(0,0,0,.7)) ,url(../images/home.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
